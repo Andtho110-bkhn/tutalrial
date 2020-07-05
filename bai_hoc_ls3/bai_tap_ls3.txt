@@ -1,0 +1,15 @@
+Bài 1: 
+	Cho một mảng tĩnh như sau: int[] arr = {90,90,20,27,35,22,10,8,8}
+a) Chèn thêm giá trị 100 vào phần tử thứ 2 trong mảng arr, lúc này kích thước mảng tăng lên 1 và mảng output sẽ là: int[] arr = {90,90,100,20,27,35,22,10,8,8}
+b) Xóa các phần tử bị trùng nhau trong mảng, mảng mới sẽ là mảng chứa các phẩn tử duy nhất.
+
+Bài 2: 
+	Cho phép nhập vào số điện tiêu thụ của 10 hộ dân và tính tổng tiền điện tiêu thụ của 10 hộ dân này. Biết rằng tiền điện phụ thuộc vào số điện sử dụng như sau:
+- Từ 0 - 50 số là 1.549 vnđ.
+- Từ 51 - 100 số là 1.600 vnđ.
+- Từ 101 - 200 số là 1.857 vnđ.
+- Từ 201 - 300 số là 2.340 vnđ.
+- Từ 301 - 400 số là 2.615 vnđ.
+- Từ 401 trở lên là 2.701 vnđ.
+
+Note: Yêu cầu dữ liệu nhập vào phải đưa vào mảng để sử lý.
