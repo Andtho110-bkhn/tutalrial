@@ -1,5 +1,7 @@
 Nghiên cứu cách tính tiền của các tài xế chạy grap như sau.
 
+<!-- Code nằm trong package vn.t3h.ls4 -->
+
 - Tài xế grap car sẽ có lương cứng theo tháng + lương chạy thêm giờ.
 	+ Lương chạy thêm giờ lại phụ thuộc vào giờ cao điểm hay thấp điểm.
 - Tài xế grap bike không có lương cứng, chỉ tính lương theo số cuốc chạy.
