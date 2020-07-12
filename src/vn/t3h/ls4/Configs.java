@@ -1,5 +1,5 @@
 package vn.t3h.ls4;
- 
+
 public class Configs {
     public static final int XE_FORD = 1;
     public static final int XE_KIA = 2;

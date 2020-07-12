@@ -17,9 +17,9 @@ public class GrapCar extends Grap {
     @Override
     public String loaiXe() {
         if (loaiXe == Configs.XE_FORD) {
-            return "Ô tô Ford giờ cao điểm" + (gioChayThem > 0 ? " (có làm thêm giờ)": " (Không làm thêm giờ)");
+            return "Ô tô Ford " + (gioChayThem > 0 ? " (có làm thêm giờ)": " (Không làm thêm giờ)");
         } else {
-            return "Ô tô Kia giờ thấp điểm" + (gioChayThem > 0 ? " (có làm thêm giờ)":" (Không làm thêm giờ)");
+            return "Ô tô Kia " + (gioChayThem > 0 ? " (có làm thêm giờ)":" (Không làm thêm giờ)");
         }
     }
     

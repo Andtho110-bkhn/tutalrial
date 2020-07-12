@@ -21,7 +21,7 @@ public class TaiXeGrap {
 			if (laTaixe == 1) {
 				System.out.print("Nhập số giờ làm thêm: ");
 				int gioLamThem = Integer.parseInt(scanner.nextLine());
-				System.out.print("Loại giờ làm thêm (1-Cao điểm; 2-Thấp điểm): ");
+				System.out.print("Loại xe (1-Ford; 2-Kia): ");
 				int loaiXe = Integer.parseInt(scanner.nextLine());
 				mangTaiXe[i] = new GrapCar(ten, gioLamThem, loaiXe);
 			} else {

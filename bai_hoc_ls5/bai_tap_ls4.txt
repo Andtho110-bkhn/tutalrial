@@ -1,0 +1,25 @@
+Bài 1: 
+
+Thực hành so sánh tốc độ đọc của ArrayList và LinkedList với một list data lớn khoảng 200 phần từ dạng chuỗi hoặc dạng số.
+Yêu cầu lấy phần tử giữa của list và output được thời gian lấy dữ liệu của ArrayList và LinkedList
+
+Note: Sử dụng java.lang.System.nanoTime()  để in ra thời gian trước và sau xử lý.
+
+
+Bài 2: Giả sử một menu đa cấp của một web site được biểu diễn thông qua thuộc tính parent_id như trong hình "menu_dacap"
+- Menu có tên Lĩnh Vực, Tin Tức là các menu Cha.
+- Menu nhà hàng là con của Menu Lĩnh vực vì parent_id(10) của nhà hàng bằng id của Lĩnh Vực (10)
+
+Hãy viết một chương trình để biểu diễn menu đa cấp này ở dạng indent như sau:
+- Lĩnh vực
+-- Nhà hàng
+-- ....
+-- Cá nhân
+
+- Tin tức
+-- Kỹ thuật in
+-- ...
+-- Khuyến mãi
+
+Note: Menu Cha sẽ chỉ có một (-), menu con sẽ có nhiều (--) hơn menu cha.
+
