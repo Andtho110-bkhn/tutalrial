@@ -1,0 +1,26 @@
+Bài 1: Thực hành tạo một Queue có 10 đối tượng gọi là (Customer), mỗi customer có 3 thuộc tính sau: 
+	String callId, String name, String callTime, String musicName.
+a) Đẩy vào queue 10 đối tượng trên, yêu cầu có hai đối tường có thuộc tính musicName = "toichuabietyeu"
+b) Sử dụng Iterator để lấy ra tất cả các đối tượng trong queue.
+
+Bài 2: Trong viễn thông, các tổng đài chăm sóc khách hàng khi có 10 người gọi đến cùng lúc thì người đầu tiên sẽ được tổng đài viên chăm sóc, còn các khách hàng khác sẽ nghe một bài nhạc chờ được gắn ngẫu nhiên. Trong bài 1 hãy tìm ra các khách hàng đang nghe bài nhạc chờ "toichuabietyeu"
+
+Nâng cao: Tại sao trong hệ thống lại dùng queue để lưu các thông tin cuộc gọi mà không phải dùng arrayList hoặc Set hoặc Map.
+
+Bài 3: (Thực hiện lại menu đa cấp bằng HashSet thay vì ArrayList ) Giả sử một menu đa cấp của một web site được biểu diễn thông qua thuộc tính parent_id như trong hình "menu_dacap"
+- Menu có tên Lĩnh Vực, Tin Tức là các menu Cha.
+- Menu nhà hàng là con của Menu Lĩnh vực vì parent_id(10) của nhà hàng bằng id của Lĩnh Vực (10)
+
+Hãy viết một chương trình để biểu diễn menu đa cấp này ở dạng indent như sau:
+- Lĩnh vực
+-- Nhà hàng
+-- ....
+-- Cá nhân
+
+- Tin tức
+-- Kỹ thuật in
+-- ...
+-- Khuyến mãi
+
+Note: Menu Cha sẽ chỉ có một (-), menu con sẽ có nhiều (--) hơn menu cha.
+
