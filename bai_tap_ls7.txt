@@ -1,7 +1,8 @@
 DocGhiFile: Thực hành đọc và ghi ra file json tất cả các đối tượng Customer của bài tập 1 buổi trước.
 
-Bài2: Trong đối tương File của java có thuộc tính tạo folder, trong ứng dụng web khi khách hàng tải file lên, các file sẽ lưu trong các folder theo tháng, mỗi tháng sẽ tạo một folder mới theo thời điểm tải file lên. Viết một chương trình đọc nghi file ra folder theo tháng tải lên.
-VD: Tháng 07/2020 thì tải file lên sẽ ghi ra folder: 072020
+Bài3: Trong đối tương File của java có thuộc tính tạo folder, trong ứng dụng web khi khách hàng tải file lên, các file sẽ lưu trong các folder theo tháng, mỗi tháng sẽ tạo một folder mới theo thời điểm tải file lên. Viết một chương trình đọc nghi file ra folder theo tháng tải lên.
+VD: Tháng 07/2020 thì ghi file ra folder: 072020
+
 
 Tìm hiểu các thuộc tính hay sử dụng của css và html:
 css: display, margin, padding, width, min,max-width, height, min,max-height, box-sizing, position, float, clear, media, inline-block, column, flex-box.
@@ -13,4 +14,4 @@ Html có 115 thẻ nhưng hay sử dụng 25 thẻ căn bản bên trong thẻ c
 
 Javascript:
 Có 2 khái niệm core: bất đồng bộ (callback, promise), event.
-Sử dụng 2 core này có 7 khái niệm: block scope, closures, anon functions, and Immediately Invoked Function Expressions (IIFE), call, apply, object.
+Sử dụng 2 core này có 8 khái niệm: block scope, closures, anon functions, and Immediately Invoked Function Expressions (IIFE), call, apply, object, class.
