@@ -1,0 +1,20 @@
+Thực hiện design pattern builder trong java với bài toán có nhiều biến phụ thuộc như sau.
+
+Viettel tính tiền cước internet theo từng khu vực và theo số tháng sử dụng như sau:
+- Khu vực thành phố 250000/tháng, khu vực nông thôn 150000/tháng.
+- Khách hàng nào đang sử dụng dịch vụ thanh toán online sẽ được tặng mã giảm giá 20%;
+- Khách hàng trong khối quân đội sẽ được tằng 100.000đ
+- Nếu đóng tiền sử dụng lớn hơn 12 tháng sẽ được tặng 2 tháng sử dụng miễn phí.
+
++ Tính số tiền phải trả khi thanh toán 6 và 15 tháng với trường hợp:
+ * Khu vực thành phố, không sử dụng dịch vụ thanh toán online, nằm trong khối quân đội.
+ * Khu vực nông thôn, sử dụng dịch vụ thanh toán online, nằm trong khối quân đội.
+
++ Tính số tháng được sử dụng khi có 30000000đ:
+ * Khu vực thành phố, sử dụng dịch vụ thanh toán online, nằm trong khối quân đội.
+
+Note: Trung bình mỗi tháng 30 ngày, mỗi điều kiện giảm giá và khuyễn mãi chỉ được sử dụng một lần duy nhất (Không có cộng dồn từ tiền được khuyễn mãi)
+
+
+*** Có khoảng 20 loại design, nhưng thường chỉ sử dụng khoảng 5 design pattern sau ***
+Adapter, Observer, Abstract Factory, Builder, Singleton.
